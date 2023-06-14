@@ -1,4 +1,5 @@
 book_cover_api.egg-info/
 .env
 .envrc
+.env.yaml
 output.txt:Zone.Identifier
