@@ -5,7 +5,8 @@ import io
 import joblib
 import os
 from nltk.tokenize import word_tokenize
-
+import nltk
+nltk.download('punkt')
 
 def embeding(title):
     word2vec = joblib.load(os.path.join(os.path.dirname(__file__), '..', 'models', 'vectorizers', 'baseline_vectorizer_v1.pkl'))

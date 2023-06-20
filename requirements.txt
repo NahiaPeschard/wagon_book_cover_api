@@ -1,6 +1,8 @@
 numpy
-pandas
 scikit-learn
+joblib
+nltk
+gensim
 
 # API
 fastapi

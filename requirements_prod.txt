@@ -2,6 +2,7 @@ numpy
 scikit-learn
 joblib
 nltk
+gensim
 
 # API
 fastapi

@@ -20,8 +20,11 @@ app.add_middleware(
 )
 
 
-@app.get("/predict")
-def predict(image_arr, title):
+@app.put("/predict")
+def predict(body: dict):
+    image_arr = body["image_arr"]
+    title = body["title"]
+
     X_preproc = preprocess(image_arr, title)
     y_pred = app.state.model.predict(X_preproc)[0]
 
