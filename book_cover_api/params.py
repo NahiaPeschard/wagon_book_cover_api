@@ -28,3 +28,12 @@ CATEGORY_DICT = { 0: 'Arts & Photography',
                  27: 'Teen & Young Adult',
                  28: 'Test Preparation',
                  29: 'Travel',}
+
+CATEGORY_DICT_8 = {0: 'History & Religion',
+                   1: 'Relationships & Children',
+                   2: 'Academic - Science',
+                   3: 'Lifestyle & Fitness',
+                   5: 'Academic - Humanities',
+                   6: 'Arts & Hobbies',
+                   4: 'Literature & Entertainment',
+                   7: 'Academic - Pure'}
