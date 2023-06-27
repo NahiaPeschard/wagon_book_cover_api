@@ -1,0 +1,20 @@
+numpy
+scikit-learn
+joblib
+nltk
+gensim
+langdetect
+deep-translator
+pyspellchecker
+nltk
+python-multipart
+google-cloud-vision
+tensorflow
+opencv-python
+colorthief
+opencv-python
+
+# API
+fastapi
+pytz
+uvicorn
